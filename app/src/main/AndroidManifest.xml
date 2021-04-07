@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CrackIt">
-        <activity android:name=".MainTopicShowActivity"></activity>
+        <activity android:name=".SubTopicShowActivity"></activity>
+        <activity android:name=".MainTopicShowActivity" />
         <activity android:name=".MainScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

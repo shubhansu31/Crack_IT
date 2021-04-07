@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Context;
 import android.os.Bundle;
 
 import java.util.ArrayList;
@@ -17,12 +18,12 @@ public class MainTopicShowActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_topic_show);
 
-        RecyclerView recyclerView = (RecyclerView)findViewById(R.id.rvMainTopic);
+        RecyclerView recyclerView = findViewById(R.id.rvMainTopic);
 
         mainTopicList = new ArrayList<MainTopic>();
         for(int i = 0 ; i < 10 ; i++){
             MainTopic mainTopic = new MainTopic();
-            mainTopic.TopicName = "Random";
+            mainTopic.TopicName = "Random Main Topic";
             mainTopicList.add(mainTopic);
         }
 
