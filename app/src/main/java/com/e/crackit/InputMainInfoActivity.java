@@ -7,10 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class InputMainInfoActivity extends AppCompatActivity {
 
     EditText main_name , sub_name , question_number;
     private String mainName , subName;
@@ -19,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_topic_info);
         main_name = (EditText)findViewById(R.id.mainTopicName);
         sub_name = (EditText)findViewById(R.id.subTopicName);
         question_number = (EditText)findViewById(R.id.questionNumber);

@@ -7,16 +7,15 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 
 import java.util.ArrayList;
-import java.util.List;
 
-public class MainActivity3 extends AppCompatActivity {
+public class MainTopicShowActivity extends AppCompatActivity {
 
     ArrayList<MainTopic> mainTopicList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.activity_main_topic_show);
 
         RecyclerView recyclerView = (RecyclerView)findViewById(R.id.rvMainTopic);
 

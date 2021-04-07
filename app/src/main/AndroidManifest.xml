@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CrackIt">
-        <activity android:name=".MainActivity3"></activity>
-        <activity android:name=".MainActivity2">
+        <activity android:name=".MainTopicShowActivity"></activity>
+        <activity android:name=".MainScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".InputMainInfoActivity" />
     </application>
 
 </manifest>
